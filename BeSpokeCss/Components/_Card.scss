@@ -1,0 +1,31 @@
+.card{
+    display: block;
+    border: $base-border-thickness solid #ddd;
+    box-shadow: $base-box-shadow;
+    .card-title{
+        font-size: $base-font-size;
+        padding: $base-padding;
+        font-weight: bold;
+        border-bottom: 1px solid lightgrey;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .card-footer{
+        font-size: $base-font-size;
+        padding: $base-padding;
+        font-weight: bold;
+        border-top: 1px solid lightgrey;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .card-body{
+        font-size: $base-font-size;
+        padding: $base-padding;
+        a{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
